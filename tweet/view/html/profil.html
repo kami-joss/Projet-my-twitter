@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.js"
+        integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    
+    <header>
+        <div class="container">
+            <div class="d-flex row align-items-center">
+                <div class="logo">
+                    <a href="accueil.html"> <img id="logo_img" src="ressources/logo.png" class="icone"></a>
+                    <button id="btn-set-profil"> Gérer mon profil </button>
+                </div>
+                <form method="POST" action="" class="form-search">
+                    <input class="form-control input-search" placeholder="Recherche" name="recherche" id='search'>
+                    <div class='resultat'></div>
+                </form>
+
+                <div class="d-flex ml-auto">
+                    <div class="d-flex justify-content-end">
+                        <a href="chat.html"> <img id="icone_chat" src="ressources/chat.png" alt="chat" class="icone"> </a>
+                    </div>
+                    <div class="">
+                        <a href=""> <img id="icone_user" src="ressources/icone_user.png" alt="user" class="icone"> </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="container-petit bloc bg-white">
+        <div class="cover mx-auto bloc">
+            <div class="photo_profil mx-auto">
+                <img src="ressources/icone_user.png" class="icone arrondie mx-auto">
+            </div>
+        </div>
+        <button  id="follow">Suivre</button>
+        <div class="info_profil">
+            <div class="bloc_nom">
+                <h4>@</h4>
+                <input disabled class="arobase"> 
+                <h4>Username</h4>
+                <input disabled class="username"> 
+            </div>
+            <div class="fl">
+                <h4>Nombre abonnements</h4>
+                <input disabled class="follows"> 
+                <h4>Nombre d'abonnées</h4>
+                <input disabled class="followers"> 
+            </div>
+        </div>
+        <div class="bio">
+            <h5>BIO</h5>
+            <p></p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat a culpa ratione, perspiciatis inventore rem nulla libero. Tempore maxime rem nihil nobis saepe dolore. Consequatur odio dolor ex veniam culpa? "</p> 
+        </div>
+        <div class="localisation">
+            <h4>Localisation</h4>
+            <p class="ville"></p>
+        </div>
+        <div class="content"></div>
+    </div>
+    <script src="..\js\profil.js"> </script>
+</body>
+
+</html>

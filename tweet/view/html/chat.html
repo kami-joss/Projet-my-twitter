@@ -1,0 +1,103 @@
+<!DOCTYPE>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.js"
+        integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title> Bubble </title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03"
+                aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="#">SWITTER chat</a>
+
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="accueil.html">Page d'accueil<span class="sr-only"> </span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="profil.html">Profil</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#"></a>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Rechercher</button>
+                </form>
+            </div>
+        </nav>
+        <!-- <div class="container bloc">
+            <div class="d-flex row align-items-center">
+                <div class="logo bloc">
+                   <a href="accueil.html"> <img id="logo_img" src="ressources/logo.png" class="icone"></a>
+                </div> -->
+        <!-- <div class="d-flex ml-auto bloc">
+                                <div class="d-flex justify-content-end bloc">
+                                    <a href=""> <img id="icone_chat" src="ressources/chat.png" alt="chat" class="icone bloc"> </a>
+                                </div>
+                                <div class="bloc">
+                                    <a href=""> <img id="icone_user" src="ressources/icone_user.png" alt="user" class="icone"> </a>
+                                </div>
+                                
+                            </div> -->
+        <!-- </div>
+        </div> -->
+    </header>
+
+    <div class="container">
+        <div class="row h-75">
+            <div class="col-3 bloc bg-white">
+
+                <p><a href="accueil.html">accueil</a></p>
+
+
+                <!-- <form method="POST" action="" class="form-search"> -->
+                <!-- <input type="search" class="form-control input-search" placeholder="Recherche" name="recherche"> -->
+                <!-- </form> -->
+                <!-- <form method="POST" class="form-search"> -->
+                <input class="form-control input-search search" placeholder="Recherche" name='recherche' id='search'>
+
+                <!-- </form> -->
+
+            </div>
+            <div class="col-9 bloc d-flex flex-column">
+                <div class="bloc-chat w-100 bg-white" id="chat">
+                    <div id='reception' class="text-dark"></div>
+                </div>
+                <div class="bloc-msg d-flex bloc mt-auto bg-white position-relative">
+
+                    <form action="" method="post" class="h-100">
+                        <!-- enctype="multipart/form-data" -->
+                        <textarea id="message" name="message" class="message_chat rounded w-75"
+                            placeholder="message"></textarea>
+                        <input type="file" accept="Image/jpg Image/png" id="image" />
+                    </form>
+                    <button type="submit" id="send_chat" class="btn btn-primary btn-sm"> Envoyer </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="../js/chat.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,80 @@
+$onglet_actif : rgba($color: #6786db, $alpha: 0.3);
+
+.text {
+    &-danger {
+        color: red;
+    }
+    &-primary {
+        color: blue;
+    }
+    &-valid {
+        color: rgb(54, 192, 54)
+    }
+}
+
+.logo {
+    height: 50px;
+  }
+
+  .bloc {
+      border: solid 1px black;
+  }
+
+  .bloc_inscription input {
+    width: 90%;
+  }
+
+  .border {
+      border: solid 1px;
+      &-danger {
+        @extend .border;
+        border-color: red;
+      }
+  }
+
+  .box_shadow {
+    box-shadow: 1px 1px 15px grey;
+  }
+
+  .icone {
+      height: 50px;
+  }
+
+  .menu_deroulant {
+
+  }
+
+  #search {
+      width: 40%;
+      min-width: 100px;
+  }
+
+  .nav-item:hover {
+      background-color: $onglet_actif;
+  }
+
+  .ong_actif {
+    background-color: $onglet_actif;
+  }
+
+  .active {
+      display: block;
+  }
+
+  .hidden {
+      display: none;
+  }
+
+  .poppin {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 99;
+    background-color: rgba(0, 0, 0, 80%);
+    border: solid 5px black;
+    display: none;
+  }
+  
+  .bloc_poppin {
+    background-color: white;
+  }

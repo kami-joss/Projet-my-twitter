@@ -1,0 +1,153 @@
+.inside {
+  display: flex;
+  flex-direction: row;
+}
+
+.links {
+  padding : 0 10px;
+}
+
+.links ul {
+  margin-left :0px;
+  padding-inline-start: 0;
+}
+
+.news {
+  padding: 0 40px;
+}
+
+#tweet {
+  display: flex;
+  flex-direction: row;
+}
+
+
+#logo_img {
+  height: 50px;
+  width: 50px;
+  position: relative;
+}
+
+.logo {
+  display: flex;
+  color: white;
+}
+
+.icone {
+  height: 50px;
+}
+
+textarea {
+  resize: none;
+}
+
+.tweet {
+  height: 100px;
+  border: solid 1px black;
+  color: black;
+}
+
+#btn_tweet {
+  margin-right: 0 !important;
+}
+
+.logo {
+  min-width: 35px;
+}
+
+textarea {
+  border-radius: 20px;
+  outline:none;
+  padding: 12px;
+}
+
+.tweeter {
+  position: relative;
+}
+
+li {
+  list-style: none;
+}
+
+.tweeter button {
+  border-radius: 20px;
+  padding: 5px;
+  font-size: 10px;
+  outline: none;
+}
+
+.tweeter:hover ul {
+  display: flex;
+  position: absolute;
+  left: -40px;
+}
+
+.tweeter ul {
+  display: none;
+}
+
+.contenu {
+  margin : 1%;
+  padding: 1%;
+  border : 2px blue solid;
+}
+
+.form-search {
+  position : relative;
+
+}
+
+.resultat {
+  position : absolute;
+  padding : 10px;
+  background-color : white;
+  z-index : 1000;
+}
+
+.resultSearch {
+  margin : 3px;
+  border : solid 1px grey;
+  cursor: pointer;
+  padding: 3px;
+}
+
+.resultSearch:hover {
+  background-color: rgba(125, 125, 221, 0.322);
+  font-weight: bold;
+}
+
+.text-like {
+  color: red;
+}
+
+.poppin {
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  z-index: 99;
+  background-color: rgba(0, 0, 0, 80%);
+  border: solid 5px black;
+  display: none;
+}
+
+.bloc_poppin {
+  background-color: white;
+}
+
+.contenu {
+  margin : 1%;
+  padding: 1%;
+  border : 2px blue solid;
+}
+
+.form-search {
+  position : relative;
+
+}
+
+.resultat {
+  position : absolute;
+  padding : 10px;
+  background-color : white;
+  z-index : 1000;
+}

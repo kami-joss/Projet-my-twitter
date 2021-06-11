@@ -1,0 +1,103 @@
+.text-danger {
+  color: red;
+}
+.text-primary {
+  color: blue;
+}
+.text-valid {
+  color: #36c036;
+}
+
+.logo {
+  height: 50px;
+}
+
+.bloc {
+  border: solid 1px black;
+}
+
+.bloc_inscription input {
+  width: 90%;
+}
+
+.border, .border-danger {
+  border: solid 1px;
+}
+.border-danger {
+  border-color: red;
+}
+
+.box_shadow {
+  box-shadow: 1px 1px 15px grey;
+}
+
+.icone {
+  height: 50px;
+}
+
+#search {
+  width: 40%;
+  min-width: 100px;
+}
+
+.nav-item:hover {
+  background-color: rgba(103, 134, 219, 0.3);
+}
+
+.ong_actif {
+  background-color: rgba(103, 134, 219, 0.3);
+}
+
+.active {
+  display: block;
+}
+
+.hidden {
+  display: none;
+}
+
+.poppin {
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  z-index: 99;
+  background-color: rgba(0, 0, 0, 0.8);
+  border: solid 5px black;
+  display: none;
+}
+
+.bloc_poppin {
+  background-color: white;
+}
+
+/* -----------------search----------------- */
+
+li {
+  list-style: none;
+}
+
+.form-search {
+  position : relative;
+}
+
+#search{
+  width: 100%;
+}
+
+.resultat {
+  position : absolute;
+  padding : 10px;
+  background-color : white;
+  z-index : 1000;
+}
+
+.resultSearch {
+  margin : 3px;
+  border : solid 1px grey;
+  cursor: pointer;
+  padding: 3px;
+}
+
+/* -----------------search----------------- */
+
+/*# sourceMappingURL=style2.css.map */
